@@ -15,8 +15,14 @@ header {
     align-items: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .logo img {
     max-width: 150px;
+    border-radius: 10px;
 }
 
 nav ul {
