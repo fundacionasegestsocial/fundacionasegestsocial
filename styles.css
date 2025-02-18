@@ -64,7 +64,7 @@ form label {
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 14px;
-    color: #000080; /* Azul oscuro */
+    color: #1f618d; /* Azul oscuro */
 }
 
 form input,
@@ -73,7 +73,7 @@ form textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: none;
-    border-bottom: 2px solid #000080; /* Azul oscuro */
+    border-bottom: 2px solid  #1f618d; /* Azul oscuro #000080 */
     outline: none;
     background: transparent;
     font-size: 16px;
@@ -85,7 +85,7 @@ form textarea {
 }
 
 form button {
-    background-color: #000080; /* Azul oscuro */
+    background-color: #1f618d; /* Azul oscuro */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -97,7 +97,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #002060; /* Azul más oscuro */
+    background-color: #1f618d; /* Azul más oscuro */
 }
 
 /* Estilos del mapa */
