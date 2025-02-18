@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #1f618d;
     font-weight: bold;
 }
 
@@ -45,12 +45,12 @@ section {
 }
 
 h2 {
-    color: #007bff;
+    color: #1f618d;
 }
 
 /* Estilos para el formulario de contacto */
 form {
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
