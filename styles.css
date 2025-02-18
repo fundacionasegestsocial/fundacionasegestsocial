@@ -50,41 +50,54 @@ h2 {
 
 /* Estilos para el formulario de contacto */
 form {
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
-    /*display: flex;*/
+    display: flex;
     flex-direction: column;
     background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 form label {
     text-align: left;
-    margin-bottom: 5px;
     font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000080; /* Azul oscuro */
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #000080; /* Azul oscuro */
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+form textarea {
+    min-height: 100px;
+    resize: none;
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #000080; /* Azul oscuro */
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    align-self: center;
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #002060; /* Azul más oscuro */
 }
 
 /* Estilos del mapa */
