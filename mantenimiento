@@ -1,0 +1,57 @@
+/* Página de mantenimiento */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: #f4f4f4;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.container {
+background: white;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+max-width: 600px;
+}
+
+
+.container img {
+max-width: 200px;
+margin-bottom: 20px;
+}
+
+
+.container h1 {
+color: #007BFF;
+margin-bottom: 20px;
+}
+
+
+.container p {
+color: #333;
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+
+.container a {
+display: inline-block;
+background: #007BFF;
+color: white;
+padding: 12px 25px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.container a:hover {
+background: #0056b3;
+}
