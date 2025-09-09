@@ -1,126 +1,57 @@
-/* Estilos generales */
+/* Página de mantenimiento */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #1f618d;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: #f4f4f4;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
 
-/* Estilos del encabezado */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fdfefe;
-    padding: 15px 20px;
-    color: #1f618d;
+
+.container {
+background: white;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+max-width: 600px;
 }
 
-.logo img {
-    max-width: 150px;
+
+.container img {
+max-width: 200px;
+margin-bottom: 20px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+
+.container h1 {
+color: #007BFF;
+margin-bottom: 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
+
+.container p {
+color: #333;
+font-size: 18px;
+margin-bottom: 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #1f618d;
-    font-weight: bold;
+
+.container a {
+display: inline-block;
+background: #007BFF;
+color: white;
+padding: 12px 25px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
 }
 
-/* Contenido general */
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
 
-h2 {
-    color: #1f618d;
-}
-
-/* Estilos para el formulario de contacto */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-form label {
-    text-align: left;
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #1f618d; /* Azul oscuro */
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-bottom: 2px solid  #1f618d; /* Azul oscuro #000080 */
-    outline: none;
-    background: transparent;
-    font-size: 16px;
-}
-
-form textarea {
-    min-height: 100px;
-    resize: none;
-}
-
-form button {
-    background-color: #1f618d; /* Azul oscuro */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 150px;
-    align-self: center;
-}
-
-form button:hover {
-    background-color: #1f618d; /* Azul más oscuro */
-}
-
-/* Estilos del mapa */
-.map-container {
-    max-width: 100%;
-    margin: 20px auto;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 400px;
-    border: none;
-    border-radius: 10px;
-}
-
-/* Estilos del pie de página */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #85929e;
-    color: white;
-    margin-top: 20px;
+.container a:hover {
+background: #0056b3;
 }
